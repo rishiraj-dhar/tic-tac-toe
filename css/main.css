@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.score {
+    margin-bottom: 2em;
+}
+
+.player {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px red solid;
+    width: 60%;
+    margin: 1em auto;
+}
+
+.game-block {
+    display: grid;
+    margin: 0 auto;
+    width: 80%;
+    grid-template-columns: repeat(3, minmax(125px, auto));
+    grid-template-rows: repeat(3, minmax(125px, auto));
+}
+
+.game-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.cell-border-top {
+    border-top: 5px solid red;
+}
+
+.cell-border-right {
+    border-right: 5px solid red;
+}
+
+.cell-border-bottom {
+    border-bottom: 5px solid red;
+}
+
+.cell-border-left {
+    border-left: 5px solid red;
+}
