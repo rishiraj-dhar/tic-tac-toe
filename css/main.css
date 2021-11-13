@@ -15,9 +15,10 @@ header {
 
 .player {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border: 2px red solid;
     width: 60%;
+    padding: 0 2em;
     margin: 1em auto;
 }
 
